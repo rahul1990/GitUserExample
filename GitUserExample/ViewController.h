@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    
+}
+-(IBAction)btnNewAdd:(id)sender;
 
 @end
