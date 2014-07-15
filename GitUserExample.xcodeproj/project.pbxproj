@@ -21,6 +21,7 @@
 		9DD2D2BF1975195A00A51ADB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD2D2A11975195900A51ADB /* UIKit.framework */; };
 		9DD2D2C71975195A00A51ADB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DD2D2C51975195A00A51ADB /* InfoPlist.strings */; };
 		9DD2D2C91975195A00A51ADB /* GitUserExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD2D2C81975195A00A51ADB /* GitUserExampleTests.m */; };
+		9DD2D2D41975280A00A51ADB /* MapFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD2D2D31975280A00A51ADB /* MapFeature.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9DD2D2C41975195A00A51ADB /* GitUserExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitUserExampleTests-Info.plist"; sourceTree = "<group>"; };
 		9DD2D2C61975195A00A51ADB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9DD2D2C81975195A00A51ADB /* GitUserExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUserExampleTests.m; sourceTree = "<group>"; };
+		9DD2D2D21975280A00A51ADB /* MapFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapFeature.h; path = MapFeature/MapFeature.h; sourceTree = "<group>"; };
+		9DD2D2D31975280A00A51ADB /* MapFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapFeature.m; path = MapFeature/MapFeature.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				9DD2D2B31975195A00A51ADB /* ViewController.m */,
 				9DD2D2B51975195A00A51ADB /* Images.xcassets */,
 				9DD2D2A41975195A00A51ADB /* Supporting Files */,
+				9DD2D2D21975280A00A51ADB /* MapFeature.h */,
+				9DD2D2D31975280A00A51ADB /* MapFeature.m */,
 			);
 			path = GitUserExample;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DD2D2B41975195A00A51ADB /* ViewController.m in Sources */,
+				9DD2D2D41975280A00A51ADB /* MapFeature.m in Sources */,
 				9DD2D2AE1975195A00A51ADB /* AppDelegate.m in Sources */,
 				9DD2D2AA1975195A00A51ADB /* main.m in Sources */,
 			);
