@@ -30,4 +30,9 @@
     
 }
 
+-(void)newSubFeature
+{
+    NSLog(@"New Sub Feature added");
+}
+
 @end
