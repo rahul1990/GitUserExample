@@ -25,5 +25,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)btnNewAdd:(id)sender
+{
+    
+}
 
 @end
